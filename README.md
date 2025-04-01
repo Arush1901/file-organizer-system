@@ -81,5 +81,8 @@ tests/: Contains test scripts for validating each module.
 Thanks to these amazing people who contributed to this project:
 
 Contributor	Profile
-Asnshi Rawal	<a href="https://github.com/Coolaan"><img src="https://avatars.githubusercontent.com/u/196440234?v=4" width="50" height="50"></a>
-Diksha	<a href="https://github.com/diksha-45"><img src="https://avatars.githubusercontent.com/u/190998987?v=4" width="50" height="50"></a>
+| Contributor | Profile |
+|------------|---------|
+| [Coolan](https://github.com/Coolaan) | <a href="https://github.com/Coolaan"><img src="https://github.com/Coolan.png" width="50" height="50"></a> |
+| [diksha-45](https://github.com/diksha-45) | <a href="https://github.com/diksha-45"><img src="https://github.com/diksha.png" width="50" height="50"></a> |
+
