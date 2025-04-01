@@ -42,10 +42,12 @@ tests/test_setup_cron.sh: Verifies the functionality of the cron setup module.
 ./tests/test_setup_cron.sh
 
 # Usage
-The File Organizer System runs automatically via a cron job after installation. You can also run it manually:
+The File Organizer System runs automatically via a cron job after installation.
+You can also run it manually:
 
 ./modules/file_scanner.sh /path/to/directory
 ./modules/file_mover.sh /path/to/directory
+
 Command Line Options
 --test: Run in test mode without making changes.
 
@@ -54,7 +56,6 @@ Command Line Options
 --config=/path/to/config: Use an alternative configuration file.
 
 # Configuration
-The system can be configured by editing the configuration file located at /etc/file-organizer/config.conf. Key settings include:
 
 TARGET_DIRECTORY: The directory to organize.
 
@@ -64,9 +65,8 @@ DUPLICATE_HANDLING: How to handle duplicate files (rename or overwrite).
 
 CRON_INTERVAL: How often to run checks (in minutes).
 
-See the example configuration file for more options.
-
 # Architecture
+
 The system follows a modular design with the following components:
 
 file_scanner.sh: Scans a directory and lists all files.
@@ -81,5 +81,8 @@ tests/: Contains test scripts for validating each module.
 Thanks to these amazing people who contributed to this project:
 
 Contributor	Profile
-Asnshi Rawal	<a href="https://github.com/Coolaan"><img src="https://avatars.githubusercontent.com/u/196440234?v=4" width="50" height="50"></a>
-Diksha	<a href="https://github.com/diksha-45"><img src="https://avatars.githubusercontent.com/u/190998987?v=4" width="50" height="50"></a>
+| Contributor | Profile |
+|------------|---------|
+| [Coolan](https://github.com/Coolaan) | <a href="https://github.com/Coolaan"><img src="https://github.com/Coolan.png" width="50" height="50"></a> |
+| [diksha-45](https://github.com/diksha-45) | <a href="https://github.com/diksha-45"><img src="https://avatars.githubusercontent.com/u/190998987?v=4" width="50" height="50"></a> |
+
