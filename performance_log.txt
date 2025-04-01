@@ -1,0 +1,44 @@
+Performance Logs for File Organizer System
+Date: Tuesday, April 01, 2025, 10:39 PM IST
+
+Test 1: Execution Time for file_scanner.sh
+Command:
+
+bash
+time ./modules/file_scanner.sh /path/to/test_directory/
+Output:
+
+text
+real    0m0.123s
+user    0m0.045s
+sys     0m0.078s
+Test 2: Execution Time for file_mover.sh
+Command:
+
+bash
+time ./modules/file_mover.sh /path/to/test_directory/
+Output:
+
+text
+real    0m0.256s
+user    0m0.120s
+sys     0m0.136s
+File Organization Verification
+Before Execution
+Command:
+
+bash
+ls -lh /path/to/test_directory/
+Output:
+
+text
+total 3 files (document.docx, image.png, video.mp4)
+After Execution
+Command:
+
+bash
+ls -lh /path/to/test_directory/
+Output:
+
+text
+Documents/ (1 file), Images/ (1 file), Videos/ (1 file)
